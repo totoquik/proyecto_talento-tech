@@ -229,3 +229,15 @@ footer .footer-list {
   min-height: 10rem;
   resize: vertical;
 }
+
+@media (max-width: 600px) {
+  header,
+  footer {
+    flex-direction: column;
+  }
+
+  .header-nav,
+  .div-logo {
+    margin: 0;
+  }
+}
